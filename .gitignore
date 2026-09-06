@@ -1,0 +1,25 @@
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-tmp/
+.coverage
+htmlcov/
+
+# Local virtual environments
+.venv/
+venv/
+.env
+
+# Experiment data, checkpoints, and MLflow state
+data/
+data_rankmax/
+artifacts/
+mlruns/
+mlflow.db
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
